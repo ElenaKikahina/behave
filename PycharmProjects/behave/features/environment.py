@@ -1,6 +1,5 @@
 from behave import fixture
 from selenium import webdriver
-from allure_behave.hooks import allure_report
 
 
 @fixture
@@ -52,5 +51,3 @@ def after_feature(context, feature):
 
 def after_all(context):
     print("After all")
-
-allure_report("path/to/result/dir")

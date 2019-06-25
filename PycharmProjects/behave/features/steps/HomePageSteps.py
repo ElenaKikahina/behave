@@ -3,7 +3,6 @@ from behave import *
 from features.pageobjects.HomePage import HomePage
 from features.pageobjects.SearchPage import SearchPage
 from features.pageobjects.BookPage import BookPage
-import allure
 
 @given('I open the website')
 def step_impl(context):
